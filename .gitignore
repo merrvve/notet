@@ -1,0 +1,12 @@
+notet.MODEL/bin/
+notet.MODEL/obj/
+notet.MAP/bin/
+notet.MAP/obj/
+notet.DAL/bin/
+notet.DAL/obj/
+notet.BLL/bin/
+notet.BLL/obj/
+notet.UI/bin/
+notet.UI/obj/
+.vs/
+.git/

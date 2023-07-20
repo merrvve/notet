@@ -1,0 +1,12 @@
+{
+  "solution": {
+    "path": "notet.sln",
+    "projects": [
+      "notet.BLL\\notet.BLL.csproj",
+      "notet.DAL\\notet.DAL.csproj",
+      "notet.MAP\\notet.MAP.csproj",
+      "notet.MODEL\\notet.MODEL.csproj",
+      "notet.UI\\notet.UI.csproj"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+﻿
+<p>
+    <ul>
+    @if (User.Identity.IsAuthenticated)
+    {
+        <li><a asp-controller="Auth" asp-action="LogOut">Çıkış Yap</a></li>
+
+    }
+    else
+    {
+        <li><a asp-controller="Auth" asp-action="Login">Giriş Yap</a></li>
+
+    }
+
+    
+    
+    
+    <li><a asp-controller="Home" asp-action="Index" asp-area="">AnaSayfa</a>
+        </li>
+    </ul>
+</p>
+<p>
+    @RenderBody()
+</p>

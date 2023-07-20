@@ -1,0 +1,8 @@
+﻿@model AppUser
+<form method="post" asp-action="Login" asp-controller="Auth" asp-area="">
+    <label>E-posta</label>
+    <input asp-for="UserName" type="text" />
+    <label>Şifre</label>
+    <input asp-for="Password" type="password" />
+    <button type="submit">Giriş Yap</button>
+</form>
